@@ -39,4 +39,17 @@ class JspParserTest extends AbstractJspNodesTst {
     void testParseBooleanAttribute() {
         jsp.parse("<label><input type='checkbox' checked name=cheese disabled=''> Cheese</label>");
     }
+
+    /**
+     * Verifies #5092
+     */
+    @Test
+    void testParseDocTypeAfterDirective() {
+        jsp.parse("<%@ page contentType=\"text/html; charset=UTF-8\" %><!DOCTYPE html>");
+    }
+
+    @Test
+    void testParseDocTypeBeforeDirective() {
+        jsp.parse("<!DOCTYPE html><%@ page contentType=\"text/html; charset=UTF-8\" %>");
+    }
 }
