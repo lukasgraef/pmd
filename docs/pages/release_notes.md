@@ -117,6 +117,8 @@ Note: Type data is not yet accessible in XPath rules or the PMD Rule Designer. T
     * [#6900](https://github.com/pmd/pmd/issues/6900): \[java] DoubleCheckedLocking: False negative when the outer null check is written as !(x != null)
 * java-multithreading
     * [#6747](https://github.com/pmd/pmd/issues/6747): \[java] NonThreadSafeSingleton: False negative with ternary conditional operator
+* jsp
+    * [#5092](https://github.com/pmd/pmd/issues/5092): \[jsp] Parsing error with `<!DOCTYPE html>`
 * kotlin
     * [#6795](https://github.com/pmd/pmd/issues/6795): \[kotlin] Add kotlin-type-mapper infrastructure
     * [#6891](https://github.com/pmd/pmd/issues/6891): \[kotlin] AnnotationFqnAnnotator: @<!-- -->TypeName not set on UnescapedAnnotation nodes
