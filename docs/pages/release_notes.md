@@ -84,7 +84,6 @@ Note: Type data is not yet accessible in XPath rules or the PMD Rule Designer. T
 * java-bestpractices
     * [#1237](https://github.com/pmd/pmd/issues/1237): \[java] AbstractClassWithoutAnyMethod - Only detecting empty classes 
     * [#1287](https://github.com/pmd/pmd/issues/1287): \[java] GuardLogStatement: False positive when using negative guard conditions
-    * [#2033](https://github.com/pmd/pmd/issues/2033): \[jsp] NoClassAttribute rule is generating a false positive
     * [#5514](https://github.com/pmd/pmd/issues/5514): \[java] ExhaustiveSwitchHasDefault fails for non-exhaustive switch statements
     * [#5670](https://github.com/pmd/pmd/issues/5670): \[java] ExhaustiveSwitchHasDefault issue with final fields not initialized in constructor
     * [#6200](https://github.com/pmd/pmd/issues/6200): \[java] UnusedAssignment: False positive about the ++ unary operator
@@ -118,6 +117,7 @@ Note: Type data is not yet accessible in XPath rules or the PMD Rule Designer. T
 * java-multithreading
     * [#6747](https://github.com/pmd/pmd/issues/6747): \[java] NonThreadSafeSingleton: False negative with ternary conditional operator
 * jsp
+    * [#2033](https://github.com/pmd/pmd/issues/2033): \[jsp] NoClassAttribute rule is generating a false positive
     * [#5092](https://github.com/pmd/pmd/issues/5092): \[jsp] Parsing error with `<!DOCTYPE html>`
 * kotlin
     * [#6795](https://github.com/pmd/pmd/issues/6795): \[kotlin] Add kotlin-type-mapper infrastructure
